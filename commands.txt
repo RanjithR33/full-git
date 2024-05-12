@@ -1,0 +1,43 @@
+1.git --version - gives version.
+
+2.git status - gives status.
+
+3.git init -b main - initializes the project first we should create it at first to create a local repository.
+
+4. git add filename.ext - adds the file in staging area.
+
+5.git commit -m "msg" - adds the file to local repository.
+
+6.git log - provides the history of commits
+
+7.git commit -a -m "msg"- it adds directly into local repository without the need for staging area
+
+8.git diff - provides the changes we have made , it can we used before staging.
+
+9.git diff --staged -it can be used to check for changes after staging area.
+
+10.git add . - adds all the files to staging area and we can commit like the usual way
+
+11.git rm --cached filename.ext - used to delete the file from repository , should commit after deleting.
+
+12.rm -rf .git - removes git from cloned project.
+
+13. .gitignore - this is a file where you can name the file which you don't want to add in staging part or repository
+
+14.git restore filename.ext - once you add to staging area and you modify it again but you want to restore back to normal that is staged form you can use this command.
+
+15.git tag -a v1.0 -m "first release" - to specify the tag for the project.
+
+16.git push orgin v1.0 - it pushes the project based on tags.
+
+17.git checkout -b branchname - it creates a branch and switches to it.
+
+18.git branch - shows the number and name of the branches.
+
+19.git checkout branchname - it changes to branch mentioned.
+
+20.git branch -d branchname - -it deletes the branch.
+
+21.git merge branchname - we should be in main to merge and after merging should push those to remote repository.
+
+
